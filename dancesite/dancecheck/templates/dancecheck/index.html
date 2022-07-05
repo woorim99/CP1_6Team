@@ -10,11 +10,29 @@
               p {text-align: center;}
               h4 {text-align: center;}
               ul {text-align: center;}
+              img {text-align: center;}
               div.dropdown {text-align:center;}
               .dropdown-menu {text-align: center;}
             </style>
+            <!-- 움직이는 이미지 -->
+             <script type="text/javascript">
+              var imgArray=new Array();
+              imgArray[0]="./1.jpg";
+              imgArray[1]="./2.jpg";
+              imgArray[2]="./3.jpg";
+              imgArray[3]="./4.jpg";
+            
+              function showImage(){
+               var imgNum=Math.round(Math.random()*3);
+               var objImg=document.getElementById("introimg");
+               objImg.src=imgArray[imgNum];
+               setTimeout(showImage,5000);
+              }
+            
+             </script>
+            
         </head>
-        <body>
+        <body onload="showImage()">
           
           <!--cover-->
           <div class="site-wrapper">
@@ -31,8 +49,8 @@
                     <!-- nav bar-->
                     <nav class="navbar navbar-expand-lg bg-light">
                       <div class="container">
-                        <a class="navbar-brand" href="/dancecheck/">
-                          <img src="/static/dancecheck/image/logo.jpg" alt="" width="140" height="60">
+                        <a class="navbar-brand" href="./index.html">
+                          <img src="./logo.jpg" alt="" width="140" height="60">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
@@ -40,13 +58,13 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="/dancecheck/">Home</a>
+                              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="./display.html">display</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="/dancecheck/members">members</a>
+                              <a class="nav-link" href="./members.html">members</a>
                             </li>
                           </ul>
                         </div>
@@ -73,7 +91,10 @@
                       {% endfor %}
                     </ul>
                   </div>
+                  <hr/>
+                  <img id="introimg">
                 </div>
+
       
               </div>
       
