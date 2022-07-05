@@ -3,11 +3,13 @@ asgiref==3.5.2
 astunparse==1.6.3
 backports.zoneinfo==0.2.1
 cachetools==5.2.0
-certifi==2022.6.15
+certifi @ file:///C:/Windows/TEMP/abs_e9b7158a-aa56-4a5b-87b6-c00d295b01fanefpc8_o/croots/recipe/certifi_1655968940823/work/certifi
 charset-normalizer==2.1.0
 colorama==0.4.5
 cycler==0.11.0
+dj-database-url==0.5.0
 Django==4.0.5
+django-heroku==0.3.1
 flatbuffers==1.12
 fonttools==4.33.3
 gast==0.4.0
@@ -15,6 +17,7 @@ google-auth==2.9.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 grpcio==1.47.0
+gunicorn==20.1.0
 h5py==3.7.0
 idna==3.3
 importlib-metadata==4.12.0
@@ -32,6 +35,7 @@ packaging==21.3
 pandas==1.4.3
 Pillow==9.2.0
 protobuf==3.19.4
+psycopg2==2.9.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pyparsing==3.0.9
@@ -54,6 +58,7 @@ typing_extensions==4.3.0
 tzdata==2022.1
 urllib3==1.26.9
 Werkzeug==2.1.2
+whitenoise==6.2.0
 wincertstore==0.2
 wrapt==1.14.1
 zipp==3.8.0
