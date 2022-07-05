@@ -22,10 +22,9 @@ def members(request):
 
 def display(request, image_id):
 
-    # video_url = settings.MEDIA_URL+'dancecheck/video/'+image_id+'.avi'
 
     model2000 = load_model('dancecheck/model16000')
-    input = './dancecheck/static/dancecheck/image/'+ image_id + '_F_00003140.jpg'  # image_id가 포함된 path 가져오기가 필요함 DB이용? -> 영상으로 해보자
+    input = './dancecheck/static/dancecheck/image/'+ image_id + '_F_00003140.jpg' 
 
     X_test=[]
 
@@ -94,11 +93,3 @@ def display(request, image_id):
     resize_back2.save('./dancecheck/static/dancecheck/pose/' + image_id + '_pose.jpg')
 
     return render(request, 'dancecheck/display.html', {'image_id': image_id})
-
-
-# def results(request, question_id):
-#     response = "You're looking at the results of question %s."
-#     return HttpResponse(response % question_id)
-
-# def vote(request, question_id):
-#     return HttpResponse("You're voting on question %s." % question_id)

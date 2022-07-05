@@ -14,10 +14,10 @@
               <!-- 움직이는 이미지 -->
              <script type="text/javascript">
               var imgArray=new Array();
-              imgArray[0]="./1.jpg";
-              imgArray[1]="./2.jpg";
-              imgArray[2]="./3.jpg";
-              imgArray[3]="./4.jpg";
+              imgArray[0]="/static/dancecheck/image/1.jpg";
+              imgArray[1]="/static/dancecheck/image/2.jpg";
+              imgArray[2]="/static/dancecheck/image/3.jpg";
+              imgArray[3]="/static/dancecheck/image/4.jpg";
             
               function showImage(){
                var imgNum=Math.round(Math.random()*3);
@@ -42,8 +42,8 @@
                     <!-- nav bar-->
                     <nav class="navbar navbar-expand-lg bg-light">
                       <div class="container">
-                        <a class="navbar-brand" href="./index.html">
-                          <img src="./logo.jpg" alt="" width="140" height="60">
+                        <a class="navbar-brand" href="/dancecheck/">
+                          <img src="/static/dancecheck/image/logo.jpg" alt="" width="140" height="60">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
@@ -51,13 +51,13 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                              <a class="nav-link active" aria-current="page" href="/dancecheck/">Home</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="./display.html">display</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="./members.html">members</a>
+                              <a class="nav-link" href="/dancecheck/members">members</a>
                             </li>
                           </ul>
                         </div>
@@ -74,7 +74,8 @@
                   <p class="lead">
                   </p>
                   <img class="dance_image" src="/static/dancecheck/image/{{image_id}}_F_00003140.jpg" alt="Not found" width="864" height="486">
-                  <img class="dance_image" src="/static/dancecheck/image/{{image_id}}_F_00003140.jpg" alt="Not found" width="864" height="486">
+                  <img class="dance_image" src="/static/dancecheck/keypoint/{{image_id}}_keypoint.jpg" alt="Not found" width="864" height="486">
+                  <img class="dance_image" src="/static/dancecheck/pose/{{image_id}}_pose.jpg" alt="Not found" width="864" height="486">
 
             
                   </div>
