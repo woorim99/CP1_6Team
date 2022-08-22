@@ -13,5 +13,7 @@
 3. 웹어플리케이션으로 좀더 K-pop 안무를 따기 좋은 환경이 되면, 댄스 컨텐츠에 대한 호감도가 수요로 전환될 것을 염두해 기획
 
 ### 사용데이터 
-- Kaggle Spotify data: 
-- AI HUB의 K - POP 안무영상 데이터:
+- Kaggle Spotify Data
+  - 개발하게 될 모델의 수요를 EDA를 통해 점검하기 위함 
+- AI HUB의 K - POP 안무영상 데이터
+  - Keypoint Detection Task를 수행할 모델을 만들기 위한 데이터 
