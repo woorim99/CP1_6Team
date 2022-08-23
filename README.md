@@ -35,6 +35,8 @@
  
  
  ### 결과
+ ![result](https://user-images.githubusercontent.com/95577538/186096962-d7b5f53e-de0e-4a00-a454-226ee62d3a1b.jpg)
+
  
  ### 한계 및 보완점
  1. 당장 서비스 할 수 있는 수준은 아님 => 정확도 문제, 탈골 현상
