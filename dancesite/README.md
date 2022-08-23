@@ -27,7 +27,7 @@ DB: 임시로 데이터를 2개 넣고 만든 sqlite3
 터미널에서 실행 코드: python manage.py runserver
 (※manage.py가 있는 dancesite 위치에서 실행)
 
-기본 url에 dancecheck/를 붙여주시면 됩니다.
+기본 url에 /dancecheck/를 붙여주시면 됩니다.
 
 상단에 SM로고, Home, display, members이 있고 그밑에 Learn more과 music choice가 있습니다.
 
