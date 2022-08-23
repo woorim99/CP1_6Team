@@ -45,7 +45,7 @@ music choice에서 노래를 선택하시면 이미지 3개가 나옵니다.
 <br/>
 
 # ***※주의사항※***
-model을 develop하실 분은 develop한 model 부호화 하신 뒤 dancecheck폴더 안에 넣고 dancecheck 안에 있는 view.py에서 load_model('dancecheck/model32000')부분을 수정하시면 됩니다.
+model을 develop하실 분은 develop한 model를 부호화 하신 뒤 dancecheck폴더 안에 넣고 dancecheck 안에 있는 view.py에서 load_model('dancecheck/model32000')부분을 수정하시면 됩니다.
 
 <br/>
 <br/>
