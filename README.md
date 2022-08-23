@@ -36,6 +36,10 @@
  
  ### 결과
  ![result](https://user-images.githubusercontent.com/95577538/186096962-d7b5f53e-de0e-4a00-a454-226ee62d3a1b.jpg)
+ 
+ - 슈퍼주니어의 sorry sorry 사비 부분 안무를 하는 이미지에 대한 결과
+ - 안무가 기준 왼쪽 팔을 올리지 못하고 있는 것으로 보아 아주 정교하게 keypoint를 탐지 하지 못하고 있는 것으로 보임
+ - 2~3 개 부분의 관절이 신체에서 이탈되어 있음
 
  
  ### 한계 및 보완점
