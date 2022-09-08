@@ -6,8 +6,11 @@ keypoint detection 모델링
 ## 파일
 * **classify_json.py**: json 형식으로 된 파일을 csv로 변환
 * **cp1.ipynb**: 우선 2000개의 trainig 데이터로 학습 후 확인
-
-![image](https://user-images.githubusercontent.com/64140376/176635602-e3d92519-1786-4422-bc56-b0ce74c2626a.png)
+* **cp1_2000_6.ipynb**: 데이터 2000개 / epochs 5
+* **cp1_8000_6.ipynb**: 데이터 8000개 / epochs 5
+* **cp1_8000.ipynb**: 데이터 8000개 / epochs 10 -> ResNet 적용 실패
+* **cp1_16000_6 copy.ipynb**: 데이터 16000개 / epochs 15
+* **cp1_32000.ipynb**: 데이터 32000개 / epochs 20 -> 최종모델!
 
 
 ## 실행방법
@@ -20,6 +23,3 @@ pip install opencv-python
 pip install tqdm
 pip install tensorflow
 ```
-
-## 진행중
-* 전체 Trainig 데이터 사용해서 학습중
